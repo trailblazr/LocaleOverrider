@@ -1,0 +1,15 @@
+/* 
+  Localized.strings
+  LocaleOverrider
+
+  Created by Lincoln Six Echo on 24.05.14.
+  Copyright (c) 2014 appdoctors. All rights reserved.
+*/
+
+/* JAPANESE */
+
+"LoremIpsum" = "11インチモデルは最大9時間、13インチモデルは最大12時間。MacBook Airのバッテリー駆動時間は驚くほどの 長さです。それはつまり、朝のコーヒーから夜帰宅するまで、電源につながなくても作業が続けられるということ。のんびり過ごしたい日も、11インチモデルでは最大9時間、13インチモデルなら最大12時間もiTunesで映画が 楽しめます。スタンバイ時間は最大30日なので、たとえ数週間後でも、前回作業を終えた そのままの状態からすぐに使い始めることができます。";
+
+"Language" = "Language";
+"You changed the language" = "You changed the language. Please press Home Button once for changes to take effect.";
+"Warning" = "Warning: Overridden app Locale does NOT take effect on In-App-Purchase processes and texts fetched for IAP-products will be in the users system-/shop-locale.";

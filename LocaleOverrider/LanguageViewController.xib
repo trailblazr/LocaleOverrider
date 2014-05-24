@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LanguageViewController">
+            <connections>
+                <outlet property="languageSegementedControl" destination="P1F-ge-cSe" id="MwP-PR-gXo"/>
+                <outlet property="localeImage" destination="1rk-Jn-DDr" id="EfG-Un-lcK"/>
+                <outlet property="loremIpsumTextView" destination="Hna-La-xw3" id="UuY-ag-T1b"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="warningLabel" destination="HwW-bj-OK8" id="8wL-CO-keh"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="flag.png" id="1rk-Jn-DDr">
+                    <rect key="frame" x="32" y="-37" width="256" height="256"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" apportionsSegmentWidthsByContent="YES" segmentControlStyle="bar" selectedSegmentIndex="0" id="P1F-ge-cSe">
+                    <rect key="frame" x="27" y="159" width="273" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <segments>
+                        <segment title="iOS/System"/>
+                        <segment title="English"/>
+                        <segment title="German"/>
+                        <segment title="Japanese"/>
+                    </segments>
+                    <connections>
+                        <action selector="actionLanguageChanged:" destination="-1" eventType="valueChanged" id="YqD-uh-yPc"/>
+                    </connections>
+                </segmentedControl>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" id="Hna-La-xw3">
+                    <rect key="frame" x="27" y="206" width="273" height="253"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.029999999999999999" colorSpace="calibratedRGB"/>
+                    <string key="text">Lorem ipsum dolor sit amet, vero aperiam mea ad, praesent dissentias ex nec, eum modus appareat cu. Ad offendit expetendis argumentum sit, mel ne atqui everti, sea et posse similique. Nam ut officiis gloriatur philosophia, has quot audire fabellas te. Facete bonorum vel in, audire percipitur ea sea.
+
+Cum ea aliquip aliquando vituperatoribus, eu elit ipsum ullum quo. Est ad vide concludaturque, cu veniam inciderint definitiones pro, pri ne fabellas constituto necessitatibus. Et accusamus salutatus sea. Legere accusata id usu, eros salutandi principes per ne, sit atqui labore eirmod ei. His ut brute corpora, sit vidisse tibique appetere ex, ut qui consul scripta invidunt. Usu ne atqui munere concludaturque.
+
+Tantas labitur eos in, platonem intellegat sed ne. Sea vidit legendos ad, sale omnesque id per, eius mazim ea sit. Pro ad delenit fierent temporibus. Nec graece nostrud molestie ei, at usu facilis euripidis delicatissimi. No meliore conceptam ius, ea mutat delenit appetere usu, ea usu sumo nostro.
+
+Vel ornatus scriptorem ne. Ut brute mediocritatem cum. Doming admodum ius et, ut accusamus instructior nec. Omnes bonorum noluisse in per, in ius dicta sonet. Suas animal et per.
+
+Novum mentitum te quo. Cu phaedrum similique posidonium quo, omnis posidonium intellegebat sea et. Sit iuvaret scaevola in, nam no quidam minimum democritum, ea has facilis adipisci. Melius consulatu repudiare usu no, an ignota eruditi has, te sed iuvaret theophrastus intellegebat. Eos dicit disputando no, dolorem menandri hendrerit mel no. Option oporteat eos eu, at soluta mediocrem qui.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HwW-bj-OK8">
+                    <rect key="frame" x="20" y="467" width="287" height="81"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.7420017123" green="0.052890285850000003" blue="0.1142529845" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.92869842052459717" green="0.96172475814819336" blue="0.9888954758644104" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="flag.png" width="128" height="128"/>
+    </resources>
+</document>

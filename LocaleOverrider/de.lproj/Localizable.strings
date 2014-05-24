@@ -1,0 +1,15 @@
+/* 
+  Localized.strings
+  LocaleOverrider
+
+  Created by Lincoln Six Echo on 24.05.14.
+  Copyright (c) 2014 appdoctors. All rights reserved.
+*/
+
+/* GERMAN */
+
+"LoremIpsum" = "Das 11\" MacBook Air hält bis zu 9 Stunden, bevor du es wieder aufladen musst. Das 13\" Modell sogar bis zu unglaubliche 12 Stunden. So kannst du vom Frühstück bis zum Feierabend arbeiten, ohne an den Strom zu müssen. Du willst dich zurücklehnen und entspannen? Dann kannst du mit dem 11\" Modell bis zu 9 Stunden iTunes Filme sehen und bis zu 12 Stunden mit dem 13\" Modell. Und bei bis zu 30 Tagen Standby kannst du auch einfach mehrere Wochen Pause machen und dann genau da weitermachen, wo du aufgehört hast.";
+
+"Language" = "Sprache";
+"You changed the language" = "Sie haben die Sprache geändert. Bitte drücken sie den Home Button, damit die Änderungen in Kraft treten können.";
+"Warning" = "Achtung: Die überschriebene Locale hat keine Auswirkungen auf den In-App-Purchase Prozess. IAP-Produkte und deren Texte werden in der System-/Shop-Sprache des Nutzers angezeigt.";

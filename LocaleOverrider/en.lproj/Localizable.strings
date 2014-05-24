@@ -1,0 +1,15 @@
+/* 
+  Localized.strings
+  LocaleOverrider
+
+  Created by Lincoln Six Echo on 24.05.14.
+  Copyright (c) 2014 appdoctors. All rights reserved.
+*/
+
+/* ENGLISH */
+
+"LoremIpsum" = "The 11-inch MacBook Air lasts up to 9 hours between charges and the 13-inch model lasts up to an incredible 12 hours. So from your morning coffee till your evening commute, you can work unplugged. When it’s time to kick back and relax, you can get up to 9 hours of iTunes movie playback on the 11-inch model and up to 12 hours on the 13-inch model. And with up to 30 days of standby time, you can go away for weeks and pick up right where you left off.";
+
+"Language" = "Language";
+"You changed the language" = "You changed the language. Please press Home Button once for changes to take effect.";
+"Warning" = "Warning: Overridden app Locale does NOT take effect on In-App-Purchase processes and texts fetched for IAP-products will be in the users system-/shop-locale.";
