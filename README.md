@@ -7,7 +7,7 @@ iOS Demonstrator how to override the apps locale in case you need to provide fas
 Screenshot
 ------------
 
-![Screenshot of the App](master/preview.png "App Screenshot")
+![Screenshot of the App](preview.png "App Screenshot")
 
 
 Code
