@@ -1,6 +1,8 @@
 LocaleOverrider
 ===============
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 iOS Demonstrator how to override the apps locale in case you need to provide fast Locale switching.
 
 
